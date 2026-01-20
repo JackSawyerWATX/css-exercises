@@ -22,3 +22,15 @@ All you need to do is center the red div inside the blue container.
 
 #### 4. What are the 3 defined values for the flex shorthand flex:auto?
 - grow, shrink, & basis
+
+#### 5. How do you make flex items arrange themselves vertically instead of horizontally?
+- flex-direction: column;
+
+#### 6. In a column flex-container, what does flex-basis refer to?
+- flex-basis refers to height instead of width
+
+#### 7. In a row flex-container, what does flex-basis refer to?
+- it arranges things horizontally. block-level elements default to the full width of their parent
+
+#### 8. Why do the previous two questions have different answers?
+- flex-containers have 2 axes: the main axis and the cross axis. the direction of these axes  change when the flex-direction changes. In most circumstances, flex-direction: row puts the main axis horizontal (left-to-right), and column puts the main axis vertical (top-to-bottom)
