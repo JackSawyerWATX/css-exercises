@@ -19,3 +19,7 @@ Use this section to check your work. On _these_ projects, your goal isn't to att
 Block elements will appear on the page stacked atop each other, each new element starting on a new line
 
 Inline elements, however, do not start on a new line
+
+The difference between an inline element and an inline-block element:
+    With display: inline, top and bottom margins & paddings are not respected, 
+    and with display: inline-block they are.
