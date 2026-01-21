@@ -33,4 +33,27 @@ All you need to do is center the red div inside the blue container.
 - it arranges things horizontally. block-level elements default to the full width of their parent
 
 #### 8. Why do the previous two questions have different answers?
-- flex-containers have 2 axes: the main axis and the cross axis. the direction of these axes  change when the flex-direction changes. In most circumstances, flex-direction: row puts the main axis horizontal (left-to-right), and column puts the main axis vertical (top-to-bottom)
+- flex-containers have 2 axes: the main axis and the cross axis. the direction of these axes  
+change when the flex-direction changes. In most circumstances, flex-direction: row puts the main 
+axis horizontal (left-to-right), and column puts the main axis vertical (top-to-bottom)
+
+#### 9. What is the difference between justify-content and align-items?
+- To center an element, use the align-items property to align the item on the cross axis, which 
+in this case is the block axis running vertically. Use justify-content to align the item on the 
+main axis, which in this case is the inline axis running horizontally.
+
+    - align-items = vertically
+    - justify-content = horizontally
+
+    * think of how text is justified horizontally in MSWord or any other document creation *
+
+#### 10. How do you use flexbox to completely center a div inside a flex container?
+- ```   .flex-container {
+            align-items: center;
+            justify-content: center;
+        } ```
+
+#### 11. What’s the difference between justify-content: space-between and justify-content: space-around?
+- space between pushes left objects to the left margin, and right objects to the right margin, 
+and leaves even space for all objects in between them.
+- space around leaves an even amount of space in between all objects inside that container.
